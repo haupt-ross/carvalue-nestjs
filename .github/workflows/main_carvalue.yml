@@ -53,4 +53,4 @@ jobs:
           app-name: 'carvalue'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8AF98FED657B46B5BCDC6BBE462FCF38 }}
-          package: .
+          package: ./dist
